@@ -1011,7 +1011,7 @@ while True:
 			command_list += ','.join(command[2]) + '\n'     #!설정확인
 			command_list += ','.join(command[3]) + '\n'     #!채널확인
 			command_list += ','.join(command[4]) + ' [채널명]\n'     #!채널이동
-			command_list += ','.join(command[5]) + '\n'     #!소환
+			command_list += ','.join(command[5]) + '\n'     #!소녀소환
 			command_list += ','.join(command[6]) + '\n'     #!불러오기
 			command_list += ','.join(command[7]) + '\n'     #!초기화
 			command_list += ','.join(command[8]) + '\n'     #!명치
@@ -1030,9 +1030,9 @@ while True:
 			command_list += ','.join(command[25]) + '\n'     #!킬횟수 확인
 			command_list += ','.join(command[25]) + ' [아이디]\n'     #!킬
 			command_list += ','.join(command[26]) + ' [아이디]\n'     #!킬삭제
-			command_list += ','.join(command[19]) + '\n'     #!공지
-			command_list += ','.join(command[19]) + ' [공지내용]\n'     #!공지
-			command_list += ','.join(command[20]) + '\n'     #!공지삭제
+			command_list += ','.join(command[19]) + '\n'     #!혈맹공지
+			command_list += ','.join(command[19]) + ' [공지내용]\n'     #!혈맹공지
+			command_list += ','.join(command[20]) + '\n'     #!혈맹공지삭제
 			command_list += ','.join(command[21]) + ' [할말]\n\n'     #!상태
 			command_list += ','.join(command[22]) + '\n'     #보스탐
 			command_list += ','.join(command[23]) + '\n'     #!보스탐
