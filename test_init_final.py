@@ -2305,6 +2305,38 @@ while True:
 	async def brother2_(ctx):
 		await PlaySound(voice_client1, './sound/형.mp3')
 	
+	@client.command(name='!만만')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/만만.mp3')
+	
+	@client.command(name='!불도그')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/불도그.mp3')
+	
+	@client.command(name='!난닝구')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/난닝구.mp3')
+	
+	@client.command(name='!브금1')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/브금1.mp3')
+	
+	@client.command(name='!뮨')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/뮨.mp3')
+	
+	@client.command(name='!냠냠')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/냠냠.mp3')
+	
+	@client.command(name='!왓')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/왓.mp3')
+	
+	@client.command(name='!왓1')
+	async def brother2_(ctx):
+		await PlaySound(voice_client1, './sound/왓1.mp3')
+	
 	@client.command(name='!TJ', aliases=['!tj'])
 	async def TJ_(ctx):
 		resultTJ = random.randrange(1,9)
