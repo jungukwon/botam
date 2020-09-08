@@ -2973,35 +2973,35 @@ class mainCog(commands.Cog):
 		await PlaySound(ctx.voice_client, './sound/TJ' + str(resultTJ) +'.mp3')
 					
 	@commands.command(name='!만만')
-	async def brother2_(self, ctx):
+	async def manman_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/만만.mp3')
 					
 	@commands.command(name='!불도그')
-	async def brother2_(self, ctx):
+	async def firedog_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/불도그.mp3')
 	
 	@commands.command(name='!난닝구')
-	async def brother2_(self, ctx):
+	async def nanengu_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/난닝구.mp3')
 					
 	@commands.command(name='!브금1')
-	async def brother2_(self, ctx):
+	async def bgm1_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/브금1.mp3')
 
 	@commands.command(name='!뮨')
-	async def brother2_(self, ctx):
+	async def mun_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/뮨.mp3')
 					
 	@commands.command(name='!냠냠')
-	async def brother2_(self, ctx):
+	async def namnam_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/냠냠.mp3')
 					
 	@commands.command(name='!왓')
-	async def brother2_(self, ctx):
+	async def what_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/왓.mp3')
 					
 	@commands.command(name='!왓1')
-	async def brother2_(self, ctx):
+	async def what1_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/왓1.mp3')
 					
 class IlsangDistributionBot(commands.AutoShardedBot):
