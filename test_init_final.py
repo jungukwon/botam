@@ -3004,6 +3004,14 @@ class mainCog(commands.Cog):
 	async def what1_(self, ctx):
 		await PlaySound(ctx.voice_client, './sound/왓1.mp3')
 					
+	@commands.command(name='!뚝딱')
+	async def ddokddak_(self, ctx):
+		await PlaySound(ctx.voice_client, './sound/뚝딱.mp3')
+					
+	@commands.command(name='!크크')
+	async def ceceru_(self, ctx):
+		await PlaySound(ctx.voice_client, './sound/크크.mp3')
+					
 class IlsangDistributionBot(commands.AutoShardedBot):
 	def __init__(self):
 		super().__init__(command_prefix=[""], help_command=None)
